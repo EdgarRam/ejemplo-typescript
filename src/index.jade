@@ -1,0 +1,13 @@
+doctype html
+html
+    head
+        title TypeScript Greeter
+    body(ng-app = "typescript")
+        div( ng-controller = "appCtrl" )
+            h3 hola
+            p {{ prueba }}
+            p( ng-click = 'next()' ) la
+        script( src = 'https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.9/angular.js' )
+        script( src = 'scripts/appCtrl.js' )
+        script( src = 'scripts/app.js' )
+        script( src = 'scripts/test.js' )

@@ -1,0 +1,15 @@
+{
+  "description": "",
+  "name": "prueba-ts",
+  "private": true,
+  "version": "0.1.0",
+  "devDependencies": {
+    "browser-sync": "^2.12.3",
+    "gulp": "^3.9.0",
+    "gulp-clean": "^0.3.2",
+    "gulp-jade": "^1.1.0",
+    "gulp-sync": "^0.1.4",
+    "gulp-typescript": "^2.13.0",
+    "gulp-watch": "^4.3.5"
+  }
+}
